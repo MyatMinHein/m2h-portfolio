@@ -369,6 +369,29 @@ section {
   left: 0;
 }
 
+/* Block */
+.scene {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 200px;
+  height: 3px;
+  perspective: 600px;
+}
+
+.cube {
+  width: 400px;
+  height: 3px;
+  background: #000609;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.cube__face {
+  position: absolute;
+  width: 200px;
+  height: 3px;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
